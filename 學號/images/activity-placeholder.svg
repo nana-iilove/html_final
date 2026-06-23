@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">活動照片占位圖</title>
+  <desc id="desc">可替換成活動照片的圖片位置</desc>
+  <rect width="900" height="620" fill="#eef1f5"/>
+  <rect x="70" y="70" width="760" height="420" rx="20" fill="#ffffff" stroke="#d8ddd7" stroke-width="8"/>
+  <circle cx="250" cy="245" r="86" fill="#0f8b8d"/>
+  <circle cx="450" cy="245" r="86" fill="#315c9f"/>
+  <circle cx="650" cy="245" r="86" fill="#d85f4f"/>
+  <path d="M160 455c28-92 88-145 152-145s124 53 152 145" fill="#c28a26" opacity="0.9"/>
+  <path d="M352 455c28-92 88-145 152-145s124 53 152 145" fill="#0f8b8d" opacity="0.85"/>
+  <text x="450" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1f2a2e">活動照片</text>
+</svg>

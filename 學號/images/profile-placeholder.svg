@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">本人照片占位圖</title>
+  <desc id="desc">可替換成個人照片的圖片位置</desc>
+  <rect width="900" height="1100" fill="#e8f1ee"/>
+  <circle cx="450" cy="360" r="150" fill="#0f8b8d"/>
+  <path d="M205 875c33-170 143-275 245-275s212 105 245 275" fill="#315c9f"/>
+  <rect x="120" y="80" width="660" height="940" fill="none" stroke="#1f2a2e" stroke-width="10"/>
+  <text x="450" y="1010" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#1f2a2e">本人照片</text>
+</svg>
