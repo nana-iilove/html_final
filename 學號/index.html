@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>個人網站 | 期末專案</title>
   <meta name="description" content="資管系期末專案個人網站">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -40,8 +41,8 @@
           用一個清楚、專業、可響應式瀏覽的個人網站，展示自我介紹、學習歷程、專業技能與作品成果。
         </p>
         <div class="hero-actions" aria-label="快速連結">
-          <a class="button primary" href="#projects">查看作品</a>
-          <a class="button secondary" href="#contact">聯絡資訊</a>
+          <a class="button primary btn btn-dark" href="#projects">查看作品</a>
+          <a class="button secondary btn btn-outline-dark" href="#contact">聯絡資訊</a>
         </div>
       </div>
       <figure class="profile-frame">
@@ -153,17 +154,17 @@
         <h2>專案作品</h2>
         <p>展示學期間完成的獨立或團隊項目，包含說明、技術細節與成果連結。</p>
       </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <img src="images/aj_照片.png" alt="網頁開發作品示意圖">
+      <div class="project-grid d-grid gap-3">
+        <article class="project-card shadow-sm">
+          <img class="img-fluid" src="images/aj_照片.png" alt="網頁開發作品示意圖">
           <div>
             <h3>網頁開發作品</h3>
             <p>說明網站目的、使用技術、負責項目與 Demo 連結。</p>
             <a href="https://github.com/nana-iilove/html_final/tree/main/ajax1-b07" aria-label="投票系統連結">作品連結</a>
           </div>
         </article>
-        <article class="project-card">
-          <img src="images/final_照片.png" alt="資料庫管理系統示意圖">
+        <article class="project-card shadow-sm">
+          <img class="img-fluid" src="images/final_照片.png" alt="資料庫管理系統示意圖">
           <div>
             <h3>資料庫管理系統</h3>
             <p>展示系統架構、資料表設計、後端邏輯與查詢成果。</p>
@@ -193,16 +194,16 @@
         <p class="section-kicker">07</p>
         <h2>獲獎與榮譽</h2>
       </div>
-      <ul class="award-list">
-        <li>學術獎學金 / 競賽成就</li>
-        <li class="award-with-image">
+      <ul class="award-list list-group list-group-flush">
+        <li class="list-group-item">學術獎學金 / 競賽成就</li>
+        <li class="award-with-image list-group-item">
           <span>資管領域相關獎項</span>
           <figure class="award-image">
-            <img src="images/證書.png" alt="資管領域相關獎項照片預留">
+            <img class="img-fluid" src="images/證書.png" alt="資管領域相關獎項照片預留">
             <figcaption>可放置獎狀、競賽證明或活動照片</figcaption>
           </figure>
         </li>
-        <li>校內外榮譽或活動紀錄</li>
+        <li class="list-group-item">校內外榮譽或活動紀錄</li>
       </ul>
     </section>
 
@@ -212,13 +213,13 @@
         <h2>參與活動照片</h2>
         <p>放置你參與活動、競賽、社團或團隊合作的照片與簡短說明。</p>
       </div>
-      <div class="gallery">
-        <figure>
-          <img src="images/管理學.jpg" alt="活動照片一">
+      <div class="gallery d-grid gap-3">
+        <figure class="figure shadow-sm">
+          <img class="img-fluid" src="images/管理學.jpg" alt="活動照片一">
           <figcaption>活動名稱 茂綸-管理學 / 年份 2025</figcaption>
         </figure>
-        <figure>
-          <img src="images/資料庫管理.png" alt="活動照片二">
+        <figure class="figure shadow-sm">
+          <img class="img-fluid" src="images/資料庫管理.png" alt="活動照片二">
           <figcaption>團隊合作 資料庫-正規化 / 年份 2025</figcaption>
         </figure>
       </div>
@@ -238,6 +239,7 @@
     <p><span id="year"></span> 個人網站期末專案</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
