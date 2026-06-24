@@ -493,6 +493,36 @@ h3 {
   border-bottom: 0;
 }
 
+.award-with-image {
+  display: grid;
+  gap: 14px;
+}
+
+.award-with-image>span {
+  font-weight: 800;
+}
+
+.award-image {
+  background: var(--bg-alt);
+  border: 1px dashed var(--teal);
+  border-radius: 8px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.award-image img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+
+.award-image figcaption {
+  color: var(--muted);
+  font-size: 0.94rem;
+  font-weight: 800;
+  padding: 10px 14px 12px;
+}
+
 .gallery {
   grid-template-columns: repeat(3, 1fr);
 }
